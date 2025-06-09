@@ -3,7 +3,7 @@ import nodeResolve from "rollup-plugin-node-resolve";
 
 export default {
   entry: 'index.js',
-  moduleName: 'topogram',
+  moduleName: 'd3',
   format: 'umd',
   dest: 'build/topogram.js',
   plugins: [
